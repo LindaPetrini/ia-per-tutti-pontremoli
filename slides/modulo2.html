@@ -275,7 +275,7 @@
     font-family:var(--sans); font-size:14px;
   }
   table.compare th, table.compare td{
-    padding:14px 12px; text-align:left;
+    padding:10px 12px; text-align:left;
     border-bottom:1px solid var(--rule-light);
     vertical-align:top;
   }
@@ -624,32 +624,32 @@
           </thead>
           <tbody>
             <tr>
-              <th>Mistral Small 3 <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(Mistral)</em></th>
+              <th>Mistral Small 3</th>
               <td style="font-family:var(--mono);">$0.10</td>
               <td style="font-family:var(--mono);">$0.30</td>
             </tr>
             <tr>
-              <th>GPT-5 Mini <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(OpenAI)</em></th>
+              <th>GPT-5 Mini</th>
               <td style="font-family:var(--mono);">$0.25</td>
               <td style="font-family:var(--mono);">$2.00</td>
             </tr>
             <tr>
-              <th>Claude Haiku 4.5 <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(Anthropic)</em></th>
+              <th>Claude Haiku 4.5</th>
               <td style="font-family:var(--mono);">$1.00</td>
               <td style="font-family:var(--mono);">$5.00</td>
             </tr>
             <tr>
-              <th>Gemini 3.1 Pro <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(Google)</em></th>
+              <th>Gemini 3.1 Pro</th>
               <td style="font-family:var(--mono);">$2.00</td>
               <td style="font-family:var(--mono);">$12.00</td>
             </tr>
             <tr>
-              <th>Claude Sonnet 4.6 <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(Anthropic)</em></th>
+              <th>Claude Sonnet 4.6</th>
               <td style="font-family:var(--mono);">$3.00</td>
               <td style="font-family:var(--mono);">$15.00</td>
             </tr>
             <tr>
-              <th>Claude Opus 4.7 <em style="font-family:var(--sans); font-style:normal; font-size:12px; color:var(--mute-light); font-weight:400;">(Anthropic)</em></th>
+              <th>Claude Opus 4.7</th>
               <td style="font-family:var(--mono);">$5.00</td>
               <td style="font-family:var(--mono);">$25.00</td>
             </tr>
@@ -657,14 +657,8 @@
         </table>
       </div>
 
-      <div class="punchline" style="margin-top:24px;">
-        Riassumere <strong>tutta la Divina Commedia</strong> (~250.000 token):
-        da <strong>3 centesimi</strong> con Mistral Small a <strong>€1.40</strong> con Claude Opus.
-        <em style="font-style:normal; color:var(--mute-light); font-size:14px; display:block; margin-top:6px;">Stesso compito. 50x di differenza.</em>
-      </div>
-
       <div class="footer-band">
-        Output costa quasi sempre 5x l'input. Le risposte lunghe pesano.
+        Riassumere la Divina Commedia? Da 3 centesimi su Mistral Small a €1.40 su Claude Opus.
         <span class="pg">05 / 14</span>
       </div>
     </section>
@@ -791,7 +785,7 @@
             </div>
             <div style="border-left:3px solid var(--coral); padding:8px 0 8px 18px;">
               <div style="font-family:var(--sans); font-size:11px; letter-spacing:0.24em; text-transform:uppercase; color:var(--coral); font-weight:600;">Retrieval</div>
-              <div style="font-family:var(--serif); font-size:18px; font-style:italic; color:var(--ink); margin-top:6px; line-height:1.4;">Claude legge il PDF che avete appena caricato, ora.</div>
+              <div style="font-family:var(--serif); font-size:18px; font-style:italic; color:var(--ink); margin-top:6px; line-height:1.4;">Claude va a cercare in chat vecchie, email, o un file che avete caricato.</div>
             </div>
           </div>
           <div class="attribution" style="margin-top:32px;">Memory vs Retrieval</div>
@@ -811,10 +805,9 @@
       Tabella di sopravvivenza pratica. Ogni chatbot ha le sue parole per la stessa
       cosa. ChatGPT: 'Memory' in Personalization. Claude: 'Memory' + Projects.
       Le Chat di Mistral: 'Memories'. Gemini: 'Saved info'. HuggingChat NON ha
-      memoria automatica — ma potete creare 'Assistants' con system prompt
-      pre-impostato (è un trucco per simulare la memoria). Da ricordare: le UI
-      cambiano ogni 3 mesi, ma il concetto è sempre lo stesso. Non vado riga per
-      riga — chiedo: 'qual è il vostro?' e ci concentro 30 secondi.">
+      memoria automatica (è più una piattaforma per provare modelli open source).
+      Da ricordare: le UI cambiano ogni 3 mesi, ma il concetto è sempre lo stesso.
+      Non vado riga per riga — chiedo: 'qual è il vostro?' e ci concentro 30 secondi.">
       <div class="masthead">
         <div class="left"><span class="mark">IA per Tutti</span><span>·</span><span>Pontremoli</span></div>
         <div>N° 01 / Primavera 2026</div>
@@ -870,7 +863,7 @@
             <tr>
               <th>HuggingChat</th>
               <td class="yes">Sì (threads)</td>
-              <td class="no">No — ma &ldquo;Assistants&rdquo; custom</td>
+              <td class="no">No</td>
               <td class="no">N/A</td>
               <td class="yes">Sì, open models</td>
               <td class="yes">Sì</td>
@@ -1064,7 +1057,7 @@
           </div>
           <div class="trick">
             <div class="t">Cancellare al volo</div>
-            <div class="d">Quando notate un fatto sbagliato o vecchio, eliminatelo subito. Tre secondi — non aspettate la pulizia mensile.</div>
+            <div class="d">Tre secondi per cancellare un fatto sbagliato o vecchio. Non serve aspettare una pulizia mensile.</div>
           </div>
         </div>
       </div>
